@@ -53,8 +53,8 @@ pip install -r requirements.txt
 2. Lancez l’application :
 
    ```bash
-   streamlit run app.py
-   ```
+python -m streamlit run mesure_toitures.py --server.headless true
+```
 
 3. Dans l’interface :
 
@@ -77,32 +77,6 @@ pip install -r requirements.txt
 
 ---
 
-## Structure du Projet
-
-```
-Extraction-Toitures/
-├─ app.py                 # Interface Streamlit
-├─ requirements.txt       # Dépendances
-├─ src/                   # Modules principaux
-│  ├─ geo_loader.py      # Chargement géospatial
-│  ├─ transform.py       # Projection des coordonnées
-│  ├─ surface_calc.py    # Calcul des surfaces
-│  └─ utils.py           # Utilitaires (normalisation, ETA)
-├─ tests/                 # Tests unitaires
-│  └─ test_surface.py
-├─ data/                  # Exemples de données
-│  └─ sample_input.csv
-└─ LICENSE
-```
-
----
-
-## Configuration
-
-Les paramètres (cache, URL/API, clés) se trouvent dans `src/config.py`.
-
----
-
 ## Contribution
 
 Les contributions sont les bienvenues ! Une simple Pull Request suffit.
@@ -111,7 +85,7 @@ Les contributions sont les bienvenues ! Une simple Pull Request suffit.
 
 ## Auteurs
 
-* **Votre Nom** – Développeur principal
+* **FERNAND LABARRE** – Développeur principal
 
 ---
 
