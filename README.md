@@ -35,7 +35,7 @@ Cette application Streamlit extrait et analyse les surfaces de toitures à parti
 ## Installation
 
 ```bash
-git clone https://votre-repo/Extraction-Toitures.git](https://github.com/FernandENR/mesures_toitures
+git clone (https://github.com/FernandENR/mesures_toitures](https://github.com/FernandENR/mesures_toitures)
 cd Extraction-Toitures
 pip install -r requirements.txt
 ```
